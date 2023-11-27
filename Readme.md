@@ -1,24 +1,30 @@
 # Fullstack MERN Blogging Website
+This website is equipped with a wide array of features to create a dynamic and engaging user experience:
 
-Fork this repo of "MERN Blogging Website" to start following the video tutorial.
+**Modern Blog Editor using Editor JS**: Seamlessly create and edit blog content using Editor JS, providing a user-friendly interface and powerful editing capabilities.
 
-Checkout website demo - [Demo](https://youtu.be/J7BGuuuvDDk)
+**Google Authentication for Users**: Secure and convenient authentication for users through Google accounts, ensuring a hassle-free login experience.
 
-![Thumbnail](https://c10.patreonusercontent.com/4/patreon-media/p/post/90122909/dd5363bd03fb4a6c8fcd5d15df98e6bf/eyJ3Ijo4MjB9/1.png?token-time=1697414400&token-hash=BZ-Mzp19WnBLcCFB8LmJFDw98mpnCRGcOCt_T615miY%3D)
+**Dynamic Blog Pages on Dynamic URLs**: Each blog post has its unique URL, enabling dynamic content creation and easy sharing.
 
-This website features include -
-1. Modern Blog Editor using Editor JS.
-2. Google Authentication for Users
-3. Dynamic Blog Pages on dynamic urls.
-4. Search Page for Searching Blogs & users.
-5. Dedicated Users Profile with thier social links and written blogs.
-6. Dedicated dashboard to manage blogs either published or draft.
-7. Blog Post Analytics, editable and deletable.
-8. Like interaction on Blogs with feature to comment on the blog.
-9. Reply to comments. ( A nested Comment System )
-10. Every interaction on site stores as a notification for their respective users.
-11. Recent notification highlight separating them from old notifications.
-12. Edit profile option to update social links, bio and username
-13. Also user can change login password from settings.
-14. Its mobile responsive with modern design + fade in animation on pages.
-And much more.
+**Search Page Functionality**: Easily search for blogs and users through a dedicated search page, enhancing discoverability across the platform.
+
+**Dedicated Users Profile**: Individual user profiles featuring social links and a collection of their authored blogs, providing a personalized space for users.
+
+**Dashboard Management**: Access a dedicated dashboard to efficiently manage published and draft blogs, simplifying the content management process.
+
+**Blog Post Analytics**: Track blog performance with detailed analytics, allowing edits and deletions for content optimization.
+
+**Interactive Engagement**: Enable likes and comments on blogs, fostering user interaction and engagement within the community.
+
+**Nested Comment System**: Facilitate threaded discussions by allowing users to reply to comments, enhancing communication and depth of engagement.
+
+**Real-time Notifications**: Every user interaction on the site is stored as a notification, keeping users informed about relevant activities.
+
+**Highlight Recent Notifications**: Recent notifications are prominently displayed, making it easy for users to distinguish new updates from older ones.
+
+**Profile Editing Options**: Users can edit their profiles, including social links, biography, and username, ensuring customization and personalization.
+
+**Password Management**: Change login passwords conveniently through the settings menu, enhancing security and user control.
+
+**Mobile Responsiveness and Modern Design**: Ensuring a seamless experience across devices with a contemporary design and subtle fade-in animations for an engaging interface.
