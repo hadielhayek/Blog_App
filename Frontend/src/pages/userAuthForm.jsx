@@ -2,9 +2,10 @@ import React from "react";
 import Input from "../components/input";
 import googleIcon from '../imgs/google.png'
 import { Link } from "react-router-dom";
-
+import AnimationWrapper from '../common/pageanimation'
 export default function userAuthForm({ type }) {
   return (
+    <AnimationWrapper keyVal={type}>
     <section className="h-cover flex items-center justify-center">
       <form className="w-[88%] max-w-[480px]">
         <h1 className="text-4xl font-gelasio capitalize text-center mb-24">
@@ -76,5 +77,6 @@ export default function userAuthForm({ type }) {
       </form>
 
     </section>
+    </AnimationWrapper>
   );
 }
