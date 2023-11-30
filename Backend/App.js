@@ -5,13 +5,17 @@ import bcrypt from 'bcrypt'
 import User from './Schema/User.js'
 import { nanoid } from 'nanoid';
 import jwt from 'jsonwebtoken';
+import cors from 'cors'
 
 const app = express();
 const port = 3000;
 
 let emailRegex = /^[\w\.-]+@[a-zA-Z\d\.-]+\.[a-zA-Z]{2,}$/
 let passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()\-_=+{};:,<.>]).{8,}$/;
+
+
 app.use(express.json())
+app.use(cors());
 
 mongoose.connect(process.env.DB_CONNECTION, {
     autoIndex: true
