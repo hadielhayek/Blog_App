@@ -101,21 +101,26 @@ app.post('/signin', (req, res) => {
             if (!user) {
                 return res.status(403).json({ 'error': 'Email not found' })
             }
-            bcrypt.compare(password, user.personal_info.password, (err, result) => {
+            if(!user.google_auth){
+                bcrypt.compare(password, user.personal_info.password, (err, result) => {
 
-                if (err) {
-                    return res.status(403).json({ 'error': 'Error occured while login' })
-                }
-                if (!result) {
-                    return res.status(403).json({ 'error': 'Incorrect password' })
-
-
-                }
-
-                else {
-                    return res.status(200).json(formDatatoSend(user))
-                }
-            })
+                    if (err) {
+                        return res.status(403).json({ 'error': 'Error occured while login' })
+                    }
+                    if (!result) {
+                        return res.status(403).json({ 'error': 'Incorrect password' })
+    
+    
+                    }
+    
+                    else {
+                        return res.status(200).json(formDatatoSend(user))
+                    }
+                })
+            }else{
+                return res.status(403).json({'error':'Account was logged in with google ! log in with it'})
+            }
+          
 
         })
         .catch(err => {
